@@ -7,11 +7,11 @@ This analysis aimed to work on the existing code to make it run faster, also kno
 
 The time to run the original code v/s the refactored code has been depicted in the image below:
 
-![Refactored vs Original code](Refactored vs Original code.png)
+![Refactored vs Original code](https://github.com/jaykansara2019/stock-analysis/blob/531536d787a1169cf73592ccb696ba43a3e89bee/Refactored%20vs%20Original%20code.png)
 
 As shown in the image below, the creation of TicketIndex, instead of making code go through the individual ticker, made a significant difference in the run time.
 
-![Refactored code](Refactored code)
+![Refactored code](https://github.com/jaykansara2019/stock-analysis/blob/531536d787a1169cf73592ccb696ba43a3e89bee/Refactored%20code.png)
 
 The time was decreased by five fold in the refactored code compared to the original version.
 
